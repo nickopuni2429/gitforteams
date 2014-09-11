@@ -73,9 +73,9 @@ We are currently using a peer-review process. Code reviews help both the reviewe
 
 3. 
 
-    git branch -a # show a list of all available branches
-    git fetch # downloads the branches
-    git checkout --track -b NNNN-branch-name origin/NNNN-branch-name # NNNN should be the ticket number
+    - `git branch -a` # show a list of all available branches
+    - `git fetch` # downloads the branches
+    - git checkout --track -b NNNN-branch-name origin/NNNN-branch-name # NNNN should be the ticket number
     (short version of above = git checkout --track origin NNNN-branch-name)
 
 3. Complete any steps outlined in the ticket to confirm the branch works "as advertised" in the ticket. If there are any errors, or things are missing, attempt to verify if the problem is on your end (e.g. did you clear cache?). If you cannot replicate what you should be seeing, contact the developer/designer and ask them for help to get your local environment looking like what it should in the ticket.
