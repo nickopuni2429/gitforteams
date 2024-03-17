@@ -5,8 +5,6 @@ Supporting files for workshops and sessions about creating a
 developer work flow for your project (and your team) with the
 version control system, git.
 
-This repository is used as the base for a video series with O'Reilly.
-
 ## Contents
 
 */slides*
